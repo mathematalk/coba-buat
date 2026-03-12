@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analitik - Mathematalk Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-glass-admin-style.css">
+</head>
+    <style>
+        /* Pengaturan Logo Baru */
+        .sidebar-header .logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .sidebar-header .logo-img {
+            max-width: 180px;
+            height: auto;
+            display: block;
+        }
+
+        /* Sembunyikan elemen logo bawaan */
+        .sidebar-header .logo, .sidebar-header .logo-text {
+            display: none;
+        }
+    </style>
+
+<body>
+    <div class="background"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+		<div class="logo-wrapper">
+                    <img src="Mathematalk_white.png" alt="Mathematalk Logo" class="logo-img">
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-section">
+                    <span class="nav-section-title">Menu Utama</span>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Dashboard</a></li>
+                    <li class="nav-item"><a href="analytics.html" class="nav-link active">Analitik</a></li>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <nav class="navbar">
+                <div class="page-header">
+                    <h1 class="page-title">Analitik Program</h1>
+                    <div class="page-breadcrumb">
+                        <a href="index.html">Dashboard</a> / <span>Analitik</span>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="stats-grid">
+                <div class="glass-card stat-card">
+                    <div class="stat-info">
+                        <h3>Pertumbuhan Siswa</h3>
+                        <div class="stat-value">84%</div>
+                    </div>
+                </div>
+                <div class="glass-card stat-card">
+                    <div class="stat-info">
+                        <h3>Program Terpopuler</h3>
+                        <div class="stat-value">OSN SD</div>
+                    </div>
+                </div>
+                <div class="glass-card stat-card">
+                    <div class="stat-info">
+                        <h3>Tingkat Retensi</h3>
+                        <div class="stat-value">92%</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-grid">
+                <div class="glass-card chart-card">
+                    <h2 class="card-title">Distribusi Siswa</h2>
+                    <div class="chart-container">
+                        <div class="chart-bar-group"><div class="chart-bar bar-emerald" style="height: 70%;"></div><span class="chart-label">SD</span></div>
+                        <div class="chart-bar-group"><div class="chart-bar bar-gold" style="height: 90%;"></div><span class="chart-label">SMP</span></div>
+                        <div class="chart-bar-group"><div class="chart-bar bar-coral" style="height: 50%;"></div><span class="chart-label">SMA</span></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="templatemo-glass-admin-script.js"></script>
+</body>
+</html>
